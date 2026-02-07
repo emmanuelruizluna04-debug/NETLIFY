@@ -1,0 +1,86 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "supreme:void_titan",
+      "is_spawnable": true,
+      "is_summonable": true,
+      "is_experimental": false,
+      "spawn_egg": {
+        "texture": "void_titan_spawn_egg",
+        "display_name": "Huevo del Titán del Vacío"
+      }
+    },
+    "component_groups": {
+      "supreme:anger": {
+        "minecraft:behavior.melee_attack": {
+          "priority": 2,
+          "speed_multiplier": 1.2
+        },
+        "minecraft:behavior.nearest_attackable_target": {
+          "priority": 1,
+          "within_radius": 64,
+          "reselect_targets": true,
+          "entity_types": [
+            {
+              "filters": {
+                "test": "is_family",
+                "subject": "other",
+                "value": "player"
+              },
+              "max_dist": 64
+            }
+          ]
+        }
+      }
+    },
+    "components": {
+      "minecraft:health": {
+        "value": 5000,
+        "max": 5000
+      },
+      "minecraft:attack": {
+        "damage": 35
+      },
+      "minecraft:armor": {
+        "value": 20
+      },
+      "minecraft:knockback_resistance": {
+        "value": 1.0
+      },
+      "minecraft:movement": {
+        "value": 0.35
+      },
+      "minecraft:boss": {
+        "should_darken_screen": true,
+        "hud_range": 64
+      },
+      "minecraft:behavior.random_stroll": {
+        "priority": 5,
+        "speed_multiplier": 1.0
+      },
+      "minecraft:behavior.look_at_player": {
+        "priority": 6,
+        "look_distance": 32
+      },
+      "minecraft:navigation.walk": {
+        "can_path_over_water": true,
+        "avoid_water": false
+      },
+      "minecraft:loot": {
+        "table": "loot_tables/entities/void_titan.json"
+      },
+      "minecraft:experience_reward": {
+        "on_death": 5000
+      },
+      "minecraft:physics": {}
+    },
+    "events": {
+      "minecraft:entity_spawned": {
+        "add": {
+          "component_groups": ["supreme:anger"]
+        }
+      }
+    }
+  }
+}

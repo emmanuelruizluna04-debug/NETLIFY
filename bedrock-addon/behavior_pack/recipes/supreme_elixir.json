@@ -1,0 +1,25 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "supreme:supreme_elixir"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "BDB",
+      "ENE",
+      "BWB"
+    ],
+    "key": {
+      "B": {"item": "minecraft:blaze_powder"},
+      "D": {"item": "minecraft:dragon_breath"},
+      "E": {"item": "minecraft:emerald"},
+      "N": {"item": "minecraft:nether_wart"},
+      "W": {"item": "minecraft:water_bucket"}
+    },
+    "result": {
+      "item": "supreme:supreme_elixir",
+      "count": 1
+    }
+  }
+}

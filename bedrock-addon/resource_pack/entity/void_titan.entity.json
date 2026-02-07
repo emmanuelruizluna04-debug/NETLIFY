@@ -1,0 +1,16 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "supreme:void_titan",
+      "materials": { "default": "entity_alphatest" },
+      "textures": {
+        "default": "textures/entity/warden/warden"
+      },
+      "geometry": {
+        "default": "geometry.warden"
+      },
+      "render_controllers": ["controller.render.default"]
+    }
+  }
+}

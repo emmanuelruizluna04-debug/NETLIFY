@@ -1,0 +1,23 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "supreme:immortal_talisman"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "NDN",
+      "DTD",
+      "NDN"
+    ],
+    "key": {
+      "N": {"item": "minecraft:nether_star"},
+      "D": {"item": "minecraft:diamond"},
+      "T": {"item": "minecraft:totem_of_undying"}
+    },
+    "result": {
+      "item": "supreme:immortal_talisman",
+      "count": 1
+    }
+  }
+}

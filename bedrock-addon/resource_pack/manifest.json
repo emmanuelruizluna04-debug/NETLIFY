@@ -1,0 +1,17 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Supreme Immortality (Resources)",
+    "description": "Texturas y nombres para el addon de inmortalidad, rangos y espadas.",
+    "uuid": "fd86d863-1a43-4610-807a-c78c302ccff9",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "004bd004-668c-4018-a375-2a5f59da403b",
+      "version": [1, 1, 0]
+    }
+  ]
+}
