@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "supreme:immortal_talisman",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "immortal_talisman"
+      },
+      "minecraft:display_name": {
+        "value": "Talismán de Inmortalidad"
+      },
+      "minecraft:max_stack_size": 1,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "normal",
+        "can_always_eat": true,
+        "effects": [
+          {"name": "regeneration", "duration": 999999, "amplifier": 4, "chance": 1.0},
+          {"name": "resistance", "duration": 999999, "amplifier": 4, "chance": 1.0},
+          {"name": "fire_resistance", "duration": 999999, "amplifier": 0, "chance": 1.0},
+          {"name": "absorption", "duration": 999999, "amplifier": 4, "chance": 1.0}
+        ]
+      }
+    }
+  }
+}

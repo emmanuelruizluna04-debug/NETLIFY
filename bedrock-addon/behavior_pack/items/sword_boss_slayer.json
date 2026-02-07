@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "supreme:sword_boss_slayer",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "sword_boss_slayer"
+      },
+      "minecraft:display_name": {
+        "value": "Espada del Verdugo"
+      },
+      "minecraft:durability": {
+        "max_durability": 12000
+      },
+      "minecraft:weapon": {
+        "damage": 120,
+        "knockback": 4.0
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 150
+      }
+    }
+  }
+}

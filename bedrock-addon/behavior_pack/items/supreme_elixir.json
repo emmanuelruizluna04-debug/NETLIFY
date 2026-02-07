@@ -1,0 +1,29 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "supreme:supreme_elixir",
+      "category": "Items"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "supreme_elixir"
+      },
+      "minecraft:display_name": {
+        "value": "Elixir de Fuerza Suprema"
+      },
+      "minecraft:max_stack_size": 16,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation_modifier": "normal",
+        "can_always_eat": true,
+        "effects": [
+          {"name": "strength", "duration": 3600, "amplifier": 4, "chance": 1.0},
+          {"name": "haste", "duration": 3600, "amplifier": 2, "chance": 1.0},
+          {"name": "speed", "duration": 3600, "amplifier": 2, "chance": 1.0},
+          {"name": "jump_boost", "duration": 3600, "amplifier": 2, "chance": 1.0}
+        ]
+      }
+    }
+  }
+}

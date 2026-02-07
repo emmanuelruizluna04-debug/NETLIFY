@@ -1,0 +1,39 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Supreme Immortality (Behavior)",
+    "description": "Efectos de inmortalidad, fuerza suprema, rangos y nuevas espadas.",
+    "uuid": "04544704-0711-4038-86ef-7f21106ff365",
+    "version": [1, 1, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "35dfbe19-0393-4d5a-a0d9-93307c8b129e",
+      "version": [1, 1, 0]
+    },
+    {
+      "type": "script",
+      "uuid": "4052493f-3a1b-4770-9429-132cefdd8120",
+      "version": [1, 1, 0],
+      "language": "javascript",
+      "entry": "scripts/main.js"
+    }
+  ],
+  "capabilities": ["script"],
+  "dependencies": [
+    {
+      "uuid": "fd86d863-1a43-4610-807a-c78c302ccff9",
+      "version": [1, 1, 0]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "1.1.0"
+    }
+  ]
+}

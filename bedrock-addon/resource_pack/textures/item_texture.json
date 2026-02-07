@@ -1,0 +1,27 @@
+{
+  "resource_pack_name": "Supreme Immortality",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "immortal_talisman": {
+      "textures": "textures/items/totem"
+    },
+    "supreme_elixir": {
+      "textures": "textures/items/potion_bottle_heal"
+    },
+    "sword_dawn": {
+      "textures": "textures/items/netherite_sword"
+    },
+    "sword_void": {
+      "textures": "textures/items/diamond_sword"
+    },
+    "builder_axe": {
+      "textures": "textures/items/emerald"
+    },
+    "sword_boss_slayer": {
+      "textures": "textures/items/netherite_sword"
+    },
+    "void_titan_spawn_egg": {
+      "textures": "textures/items/spawn_egg"
+    }
+  }
+}

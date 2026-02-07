@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "supreme:sword_boss_slayer"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " N ",
+      " N ",
+      " S "
+    ],
+    "key": {
+      "N": {"item": "minecraft:netherite_block"},
+      "S": {"item": "supreme:sword_void"}
+    },
+    "result": {
+      "item": "supreme:sword_boss_slayer",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:item": {
+    "description": {
+      "identifier": "supreme:sword_void",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": {
+        "texture": "sword_void"
+      },
+      "minecraft:display_name": {
+        "value": "Espada del Vacío"
+      },
+      "minecraft:durability": {
+        "max_durability": 9999
+      },
+      "minecraft:weapon": {
+        "damage": 55,
+        "knockback": 3.0
+      },
+      "minecraft:enchantable": {
+        "slot": "sword",
+        "value": 120
+      }
+    }
+  }
+}
